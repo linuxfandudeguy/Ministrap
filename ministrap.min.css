@@ -1,0 +1,71 @@
+/* Danger button and link */
+.btn-danger:hover,
+a.btn-danger:hover {
+  background-color: #bd2130;
+  border-color: #bd2130;
+}
+
+/* Define hover effects for light button and link */
+.btn-light:hover,
+a.btn-light:hover {
+  background-color: #e2e6ea;
+  border-color: #dae0e5;
+}
+
+/* Input styles */
+
+/* Apply rounded corners to all input elements */
+input,
+select,
+textarea {
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+}
+
+/* Style specific input types */
+input[type="color"],
+input[type="number"],
+input[type="text"],
+input[type="file"],
+input[type="range"],
+input[type="date"],
+input[type="time"],
+input[type="week"],
+input[type="month"],
+input[type="datetime-local"] {
+  width: 100%;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  margin-right: 0.5rem;
+}
+
+select {
+  background-color: #fff;
+}
+
+input[type="file"] {
+  padding: 0.5rem;
+}
+
+input[type="range"] {
+  width: 100%;
+}
+
+/* Apply hover effects to inputs */
+input:hover,
+select:hover,
+textarea:hover {
+  border-color: #999;
+}
+
+/* Apply focus styles to inputs */
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
